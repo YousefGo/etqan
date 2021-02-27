@@ -5,8 +5,8 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header "><h1>
-                {{ __('إنشاء حساب مستخدم جديد') }}
+                <div class="card-header text-center "><h1>
+                {{ __('إنشاء حساب مستخدم جديد (طالب)') }}
 
                 </h1></div>
 
@@ -16,17 +16,13 @@
 
                         <div class="form-group row">
                             <label for="name" class=" text-right col-md-4 col-form-label text-md-right"><h2>
-                            {{ __('الاسم الأول') }}
+                            {{ __('الاسم ') }}
                             </h2></label>
 
                             <div class="col-md-6">
                                 <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
-                                @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                              
                             </div>
                         </div>
 
@@ -38,11 +34,7 @@
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
 
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                             
                             </div>
                         </div>
 

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container-fulid">
+<div class="container-fulid ">
 
   
     
@@ -9,10 +9,10 @@
 
 
 
-    <div class="row justify-content-center  center">
+    <div class="row justify-content-center  ">
         <div class="col-md-8 " >
-            <div class="card  m-1" >
-                <div class="card-header  text-right"  ><h1>
+            <div class="card  m-1 br" >
+                <div class="card   text-center"  ><h1>
                 {{ __('تسجيل دخول المستخدم') }}
                 </h1></div>
           
@@ -21,9 +21,9 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right text-right"><h2>
+                            <label for="email" class="col-md-4 col-form-label text-md-right text-right"><h3>
                             {{ __('البريد الإلكتروني') }}
-                            </h2></label>
+                            </h3></label>
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
@@ -37,9 +37,9 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right text-right"><h2>
+                            <label for="password" class="col-md-4 col-form-label text-md-right text-right"><h3>
                             {{ __('كلمة المرور') }}
-                            </h2></label>
+                            </h3></label>
 
                             <div class="col-md-6">
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
@@ -59,7 +59,7 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4 ">
                                 
-                                <button type="submit" class="btn btn-primary text-right">
+                                <button type="submit" class="btn  btn-info text-right">
                                     {{ __('دخول') }}
                                 </button>
 

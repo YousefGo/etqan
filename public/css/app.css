@@ -10955,7 +10955,7 @@ a.text-dark:focus {
 .bluelight{
   background-color: rgb(140, 171, 213);
 }
-a,h1,p,h2{
+a,h1,p,h2,h3{
   color:rgb(43, 47, 114);
 }
 .button-blue{
@@ -11002,9 +11002,16 @@ html,body,*{
   background-image: url("../images/bg1.png");
   background-position: top right; /* Center the image */
   background-size: cover; 
-  background-size: 500px;
+  background-repeat: no-repeat;
 }
 .awhite{
   color:wheat;
   margin:0 auto ;
+}
+.br{
+  border:2px solid rgb(140, 171, 213);
+  border-right: 7px solid rgb(140, 171, 213);
+  border-bottom: 5px solid rgb(140, 171, 213);
+
+  border-radius: 20px;
 }

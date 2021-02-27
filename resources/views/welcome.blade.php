@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body class="bg">
 
 <nav class="navbar navbar-expand-md navbar-light bluelight shadow-sm">
             <div class="container-fluid ">
@@ -155,9 +155,9 @@
   
     <footer class="bluelight text-center text-white mt">
   <!-- Grid container -->
-  <div class="container p-2 pb-0 row">
-   
-  <div class="col-2">
+  <div class="container p-4 pb-0 ">
+   <div class="row">
+   <div class="col-2">
 <a href="">من نحن</a>
 </div>
   
@@ -183,6 +183,8 @@
 
     
 
+   </div>
+  
 
     <!-- Section: Social media -->
   </div>
