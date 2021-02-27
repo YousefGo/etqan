@@ -158,7 +158,7 @@
   <div class="container p-4 pb-0 ">
    <div class="row">
    <div class="col-2">
-<a href="">من نحن</a>
+<a href="{{('aboutus')}}">من نحن</a>
 </div>
   
 <div class="col-2">
