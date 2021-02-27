@@ -21,30 +21,27 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bluelight shadow-sm">
-            <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light bluelight shadow-sm">
+            <div class="container-fluid">
           
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-
-                    </ul>
+                  
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav w-100 " >
                         <!-- Authentication Links -->
                         @guest
-                            <li class="nav-item">
+                            <li class="nav-item ml-4 " >
 
-                                <a class="btn btn-light" href="{{ route('login') }}">{{ __('تسجيل دخول') }}</a>
+                                <a class="btn btn-light btn-lg" href="{{ route('login') }}">{{ __('تسجيل دخول') }}</a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('إنشاء حساب') }}</a>
+                                    <a class="nav-link btn-lg line" href="{{ route('register') }}">{{ __('إنشاء حساب') }}</a>
                                 </li>
                             @endif
                         @else
@@ -76,6 +73,17 @@
             </span>
             </div>
         </nav>
+    </div>
+
+   
+              
+        
+
+        </div>
+      
+
+      </nav>
+
 
         <main class="py-4">
             @yield('content')
