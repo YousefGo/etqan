@@ -100,7 +100,7 @@
          <div class="col-md-4"></div>
         <div class="col-md-2 col-sm-12  " >
             <button type="button" class="btn  btnrd  btn btn-info  bluelight btn-lg w-100 text-center mt-4 " >
-                <a href="">
+                <a href="{{('Companies')}}">
                     جهات
                 </a>
             </button>
@@ -168,7 +168,7 @@
 <div class="col-4"></div>
       <!-- Twitter -->
       <div class="col-2">
-      <a class="btn btn-outline-light btn-floating  " href="https://encrypted-tbn0com/images?q=tbn:ANd" role="button"
+      <a class="btn btn-outline-light btn-floating  " href="https://twitter.com/itqan_2021 " target="_blank"  role="button"
         ><i class="fab fa-twitter"></i
       ></a>
 

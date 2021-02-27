@@ -30,6 +30,14 @@ Route::get('/aboutus', function(){
     return view("aboutus");
 });
 
+// Companies.blade
+Route::get('/Companies', function(){
+    return view("Companies");
+});
+Route::get('/contactus', function(){
+    return view("contactus");
+});
+
 
 Route::get('/CooperativeTraining',function(){
     if(Auth::check()){

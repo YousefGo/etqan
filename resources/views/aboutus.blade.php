@@ -31,11 +31,12 @@
     </div>
     <div class="col-sm-4">
       <h3 class="text-center"> الهدف</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p class="text-center">تمكين الطلاب المقبلين على التخرج سهولة البحث والحصول على جهات تقبل التدريب التعاوني لمختلف التخصصات.</p>
+      <p  class="text-center">انشاء اتفاقيات متجددة مع الجامعات مما سيسهل على الجامعات البحث و  تزويد المتدربين بالمعلومات الكافية عن الجهات</p>
     </div>
     <div class="col-sm-4">
-      <h3 class="text-center"> الرسالة</h3>        
+      <h3 class="text-center"> الرسالة</h3> 
+      <p class="text-center">منصه تهدف الى تمكين وتدريب الطلاب بأبسط الوسائل والطرق</p>       
     </div>
   </div>
 </div>

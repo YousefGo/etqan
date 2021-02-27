@@ -11016,3 +11016,9 @@ html,body,*{
 
   border-radius: 20px;
 }
+
+.mc{
+  margin:0 auto;
+  height: 200px;
+  width:200px;
+}
