@@ -9,15 +9,23 @@
 
                 <div class="card-body text-center">
                     @if (session('status'))
-                    <div class="alert alert-success" role="alert">
-                        {{ session('status') }}
-                    </div>
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
                     @endif
 
                     {{ __('أهلا وسهلا بك في بوابة الطالب') }}
 
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-                    <div class="row">
+
+
+<div class="row">
                         <div class="col-md-3 col-sm-12">
                         </div>
                         <div class="col-md-3 col-sm-9 text-center">
@@ -44,13 +52,4 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-md-3 col-sm-12">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 @endsection
