@@ -24,9 +24,22 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/CooperativeTraining',function(){
-    return view('CooperativeTraining');
+    if(Auth::check()){
+        return view('CooperativeTraining');
+
+    }
+    else{
+      return   redirect('login');
+    }
 });
 
 Route::get('/VirtualTraining',function(){
-    return view('VirtualTraining');
+
+    if(Auth::check()){
+        return view('VirtualTraining');
+
+    }
+    else{
+      return   redirect('login');
+    }
 });
