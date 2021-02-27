@@ -99,11 +99,14 @@
 
         <div class="col-md-4"></div>
         <div class="col-md-2 col-sm-12  ">
-            <button type="button" class="btn  btnrd  btn btn-info  bluelight btn-lg w-100 text-center mt-4 ">
+        <a href="{{('Companies')}}">
+        <button type="button" class="btn  btnrd  btn btn-info  bluelight btn-lg w-100 text-center mt-4 ">
                 <a href="{{('Companies')}}">
                     جهات
                 </a>
             </button>
+        </a>
+          
         </div>
         <div class="col-md-2  col-sm-12 ">
             <button type="button" class="btn btn-light  btnrd btn-lg w-100  text-center  mt-4  ">
@@ -166,7 +169,7 @@
                 </div>
 
                 <div class="col-2">
-                    <a href="">اتصل بنا</a>
+                    <a href="{{('contactus')}}">اتصل بنا</a>
                 </div>
 
                 <div class="col-4"></div>
