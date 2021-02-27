@@ -11000,9 +11000,10 @@ html,body,*{
 }
 .bg{
   background-image: url("../images/bg1.png");
-  background-position: top right; /* Center the image */
-  background-size: cover; 
-  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+  background-size:cover;
+  
+  background-repeat: repeat-y;
 }
 .awhite{
   color:wheat;

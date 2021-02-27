@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <!-- Styles -->
+    <link rel="icon" href="/public/favicon.ico" />
 
 </head>
 
@@ -106,7 +107,7 @@
         </div>
         <div class="col-md-2  col-sm-12 " >
             <button type="button" class="btn btn-light  btnrd btn-lg w-100  text-center  mt-4  " >
-                <a href="">متدربين</a>
+                <a href="{{('home')}}">متدربين</a>
             </button>
         </div>
         <div class="col-md-4"></div>
@@ -127,22 +128,21 @@
   <div class="row">
   <div class="col-md-3 col-sm-12" >
 </div>
-<div class="col-md-3 col-sm-12 text-center" >
+<div class="col-md-3 col-sm-9 text-center" >
 
-<div class="card w-100 mt-4  bluelight" style="height:120px">
-    <div class="card-body  ">  <h2 class="text-center"> <a  class="awhite"href="
-    ">
+<div class="card w-100 mt-4 w-75  bluelight" style="height:120px">
+    <div class="card-body  ">  <h2 class="text-center"> <a  class="awhite"href="{{'VirtualTraining'}}">
     التدريب التعـــاوني الافتراضي
 </a> </h2> </div>
   </div>
 </div>
 
 
-<div class="col-md-3 col-sm-12" >
+<div class="col-md-3 col-sm-9" >
 <div class="card w-100  mt-4 bluelight" style="height:120px">
-    <div class="card-body  ">  <h2  class="text-center">
+    <div class="card-body  w-75 ">  <h2  class="text-center">
 
-    <a  class="awhite text-center" href="">
+    <a  class="awhite text-center" href="{{ ('CooperativeTraining') }}">
   التــدريب الميــــداني
 </a>
     </h2> </div>
